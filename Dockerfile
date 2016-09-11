@@ -7,7 +7,9 @@ RUN apt-get update && \
         dbus                    \
         build-essential         \
         openjdk-7-jdk           \
-        python-dev
+        python-dev              \
+        python-pip              \
+        python-wheel
 
 ENV JAVA_TOOL_OPTIONS "-Dfile.encoding=UTF8"
 
